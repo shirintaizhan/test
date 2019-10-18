@@ -1,8 +1,9 @@
 public class Car
 {
-	String name;
-	Double price;
-	Integer year;
+	private Long id;
+	private String name;
+	private Double price;
+	private Integer year;
 
 	public Car(String name, Double price, Integer year)
 	{
