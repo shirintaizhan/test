@@ -1,0 +1,546 @@
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name":"Achk",
+  "cpu":"Core i3",
+  "ram":"4 Gb",
+  "storageDevice":"HDD",
+  "screen":"15 inches",
+  "price": 30.200
+}
+
+###
+
+GET http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name":"Achk",
+  "cpu":"Core i3",
+  "ram":"4 Gb",
+  "storageDevice":"HDD",
+  "screen":"15 inches",
+  "price": 30.200
+}
+
+###
+
+GET http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name":"Achk",
+  "cpu":"Core i3",
+  "ram":"4 Gb",
+  "storageDevice":"HDD",
+  "screen":"15 inches",
+  "price": 30.200
+}
+
+###
+
+GET http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name":"Achk",
+  "cpu":"Core i3",
+  "ram":"4 Gb",
+  "storageDevice":"HDD",
+  "screen":"15 inches",
+  "price": 30.200
+}
+
+###
+
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name":"Achk",
+  "cpu":"Core i3",
+  "ram":"4 Gb",
+  "storageDevice":"HDD",
+  "screen":"15 inches",
+  "price": 30.200
+}
+
+###
+
+GET http://localhost:8080/laptop/list
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+PUT http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 2, "name":"Achk","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+###
+
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 2, "name":"Acerjhk","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+###
+
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 2, "name":"Acerjhk","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+###
+
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 2, "name":"Acerjhk","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+###
+
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 2, "name":"Acerjhk","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+<> 2019-11-09T042343.200.txt
+
+###
+
+POST http://localhost:8080/laptop/update
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name":"Acer","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+<> 2019-11-09T042220.200.txt
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"mmm","cpu":"Core i3","ram":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+<> 2019-11-09T041031.200.txt
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acejkjhkr","CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","price": 30.200}
+
+<> 2019-11-09T040907.200.txt
+
+###
+
+GET http://localhost:8080/laptop/list
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-09T035440.200.txt
+
+###
+
+GET http://localhost:8080/laptop/2/view
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-09T034829.200.txt
+
+###
+
+POST http://localhost:8080/laptop/2/view
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-09T034814.405.json
+
+###
+
+POST http://localhost:8080/laptop/1/delete
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-05T044810.500.json
+
+###
+
+POST http://localhost:8080/laptop/1/delete
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-05T044732.500.json
+
+###
+
+POST http://localhost:8080/laptop/1/delete
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-11-05T044341.500.json
+
+###
+
+POST http://localhost:8080/laptop/delete
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"laptopId": 1}
+
+<> 2019-11-05T044116.400.json
+
+###
+
+POST http://localhost:8080/laptop/delete
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"laptopId": 1}
+
+<> 2019-11-05T044100.400.json
+
+###
+
+POST http://localhost:8080/laptop/delete
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": "1"}
+
+<> 2019-11-05T044036.400.json
+
+###
+
+POST http://localhost:8080/laptop/delete
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 1}
+
+<> 2019-11-05T044022.400.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"id": 1}
+
+<> 2019-11-05T043959.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043727.200.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i5","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043709.200.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i5","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043637.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i5","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043535.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043504.200.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043406.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043243.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043055.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043045.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"cfgdf sdfgsd","price":30.200}
+
+<> 2019-11-05T043027.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}
+
+<> 2019-11-05T042950.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}
+
+<> 2019-11-05T042724.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}
+
+<> 2019-11-05T042617.200.txt
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}
+
+<> 2019-11-05T042534.200.txt
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}
+
+<> 2019-11-05T042325.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+[{"name":"Acer"}]
+
+<> 2019-11-05T042215.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{"name":"Acer"}
+
+<> 2019-11-05T042149.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}}
+
+<> 2019-11-05T042124.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+
+"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200
+
+<> 2019-11-05T041731.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}}
+
+<> 2019-11-05T041644.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}}
+
+<> 2019-11-05T041637.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}}
+
+<> 2019-11-05T041522.500.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.200}}
+
+<> 2019-11-05T041429.400.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":30.20"}}
+
+<> 2019-11-05T041411.400.json
+
+###
+
+POST http://localhost:8080/laptop/save
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "laptop" :  {"name":"Acer", "CPU":"Core i3","RAM":"4 Gb","storageDevice":"HDD","screen":"15 inches","model":"hg","price":"30.200"}}
+
+###
+

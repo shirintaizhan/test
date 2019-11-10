@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-05T10:48:09.897+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No class com.shop.demo.model.Laptop entity with id 1 exists!",
+  "path": "/laptop/1/delete"
+}

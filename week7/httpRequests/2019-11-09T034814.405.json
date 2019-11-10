@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-09T09:48:13.696+0000",
+  "status": 405,
+  "error": "Method Not Allowed",
+  "message": "Request method 'POST' not supported",
+  "path": "/laptop/2/view"
+}

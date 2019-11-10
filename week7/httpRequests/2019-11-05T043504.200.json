@@ -1,0 +1,10 @@
+{
+  "id": 0,
+  "name": "Acer",
+  "storageDevice": "HDD",
+  "screen": "15 inches",
+  "model": null,
+  "price": 30.2,
+  "cpu": "Core i3",
+  "ram": "4 Gb"
+}

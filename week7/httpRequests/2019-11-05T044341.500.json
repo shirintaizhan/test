@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-05T10:43:40.842+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No default constructor for entity:  : com.shop.demo.model.Laptop; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.shop.demo.model.Laptop",
+  "path": "/laptop/1/delete"
+}

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-05T10:21:49.455+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "No message available",
+  "path": "/laptop/save"
+}

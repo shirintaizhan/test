@@ -1,0 +1,6 @@
+name: Acer
+CPU: Core i3
+RAM: 4 Gb
+Storage device: HDD
+screen: 15 inches
+Price: 30.2

@@ -1,0 +1,59 @@
+{
+  "timestamp": "2019-11-05T10:14:29.425+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "errors": [
+    {
+      "codes": [
+        "typeMismatch.laptop.price",
+        "typeMismatch.price",
+        "typeMismatch.double",
+        "typeMismatch"
+      ],
+      "arguments": [
+        {
+          "codes": [
+            "laptop.price",
+            "price"
+          ],
+          "arguments": null,
+          "defaultMessage": "price",
+          "code": "price"
+        }
+      ],
+      "defaultMessage": "Failed to convert value of type 'null' to required type 'double'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [null] to type [double] for value 'null'; nested exception is java.lang.IllegalArgumentException: A null value cannot be assigned to a primitive type",
+      "objectName": "laptop",
+      "field": "price",
+      "rejectedValue": null,
+      "bindingFailure": true,
+      "code": "typeMismatch"
+    },
+    {
+      "codes": [
+        "typeMismatch.laptop.id",
+        "typeMismatch.id",
+        "typeMismatch.int",
+        "typeMismatch"
+      ],
+      "arguments": [
+        {
+          "codes": [
+            "laptop.id",
+            "id"
+          ],
+          "arguments": null,
+          "defaultMessage": "id",
+          "code": "id"
+        }
+      ],
+      "defaultMessage": "Failed to convert value of type 'null' to required type 'int'; nested exception is org.springframework.core.convert.ConversionFailedException: Failed to convert from type [null] to type [@javax.persistence.Id int] for value 'null'; nested exception is java.lang.IllegalArgumentException: A null value cannot be assigned to a primitive type",
+      "objectName": "laptop",
+      "field": "id",
+      "rejectedValue": null,
+      "bindingFailure": true,
+      "code": "typeMismatch"
+    }
+  ],
+  "message": "Validation failed for object='laptop'. Error count: 2",
+  "path": "/laptop/save"
+}

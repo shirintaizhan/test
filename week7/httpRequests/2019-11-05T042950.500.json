@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-11-05T10:29:50.126+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement",
+  "path": "/laptop/save"
+}
