@@ -1,0 +1,10 @@
+com\shop\demo\model\Client.class
+com\shop\demo\model\Order.class
+com\shop\demo\controller\LaptopController.class
+com\shop\demo\repository\LaptopRepository.class
+com\shop\demo\model\Employee.class
+com\shop\demo\model\Laptop.class
+com\shop\demo\repository\EmployeeRepository.class
+com\shop\demo\ShopApplication.class
+com\shop\demo\model\Shop.class
+com\shop\demo\repository\ClientRepository.class

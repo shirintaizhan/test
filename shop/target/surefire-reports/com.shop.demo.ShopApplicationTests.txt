@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.shop.demo.ShopApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.696 s <<< FAILURE! - in com.shop.demo.ShopApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Version may only contain 0..9 and . (dot). Invalid version: 1.Initial
+Caused by: org.flywaydb.core.api.FlywayException: Version may only contain 0..9 and . (dot). Invalid version: 1.Initial
+
